@@ -304,7 +304,7 @@
         speechSynthesis.resume();
         timer = setTimeout(function () {
             resumeInfinity()
-        }, 2026)
+}, 3000)
     }
     function clear() {  clearTimeout(timer) }
     
